@@ -2,6 +2,7 @@ const cors = require('cors')
 const express = require('express')
 const { Kafka } = require('kafkajs')
 
+
 const kafka = new Kafka({
   clientId: 'my-app',
   brokers: [
